@@ -1,2 +1,8 @@
-# Ignorar toda la carpeta Data
-Data/
+# Ignorar toda la carpeta Data excepto archivos de ejemplo
+Data/*
+!Data/photometry/
+!Data/spectra/
+Data/photometry/*
+!Data/photometry/SN2020jfo_photometry.dat
+Data/spectra/*
+!Data/spectra/SN2020jfo_spectra.dat
